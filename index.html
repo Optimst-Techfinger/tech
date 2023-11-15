@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>techfinger portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name="keywords" content="Techfinger, Repair service, Computer repair, Network design, Network Implementation, Web development, web design," />
+	<meta name="description" content="IT Solution and Support services">
+	<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+	<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDz rGwX3vgxX1NkioYNCFOVC0GpDPss10zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous" />
+    <link rel="stylesheet" href="portfolio.css" />
+	
+</head>
+<body>
+
+    <div id="portfolio_image">
+		<div class="container">
+			<nav id="nav_section">
+				<h1 id="portfolio_logo">@TechFinger</h1>
+				<ul id="sidemenu_bar">
+					<li><a href="#portfolio_image">Home</a></li>
+					<li><a href="#service-container_enclosed">Services</a></li>
+					<li><a href="#porfolio-container_enclosed">Portfolio</a></li>
+					<li><a href="#about_container-enclosed">About</a></li>
+					<li><a href="#my_contact">Contact</a></li>
+					<li><a href="#">Blog</a></li>
+					<i class="fas fa-times" onclick="closemenu_bar()"></i></i>
+				</ul>
+				<i class="fas fa-bars" onclick="openmenu_bar()"></i>
+			</nav>
+			<div class="intro_header">
+				<p>Front-End Developer/Network Administrator</p>
+				<h2>Hi, I'm <span class="name_span">Habeeb</span><br />Olamilekan From Nigeria</h2>
+			</div>
+		</div>
+    </div>
+	<div id="about_container-enclosed">
+		<div class="about_container">
+			<div class="sub_about-sect">
+				<div class="about_sect-1">
+					<img src="about.JPG" alt="About-Image">
+				</div>
+				<div class="about_sect-2">
+					<h1 class="subtitle">About Me</h1>
+					<p> 
+						As a dynamic and driven professional with over seven years of experience in the technology industry, 
+						I am proficient in computer network design and troubleshooting, hardware maintenance, software installation 
+						(operating system/application packages) and team leadership, with a track record of completing 
+						high-quality tasks on schedule and within budget. In my pursuit of continuous learning, I have explored 
+						on various computer/programming languages and frameworks, including C language, Python, JavaScript, React, jQuery, 
+						CSS and HTML. Currently, I have knowledge in web design and software development, which I am actively working on 
+						developing projects in these areas. I am a collaborative team player with excellent problem-solving skills and a 
+						passion for delivering results. My goal is to leverage my technical expertise and problem-solving abilities to 
+						drive success and growth in your organization. 
+					</p>
+					<div class="skill-exp-edu_section">
+						<p class="skill-exp-edu_link active" onclick="openTab_SkillExpEdu('skills')">Skills</p>
+						<p class="skill-exp-edu_link" onclick="openTab_SkillExpEdu('experience')">Experience</p>
+						<p class="skill-exp-edu_link" onclick="openTab_SkillExpEdu('education')">Education</p>
+					</div>
+					<div class="skill-exp-edu_content skill-exp-edu_active" id="skills">
+						<ul>
+							<li><span>Web Development</span><br />Design a responsive Web application</li>
+							<li><span>App Development</span><br />Build your mobile apps with a great interface</li>
+							<li><span>Network Design/Implementation</span><br />Designing wired/wireless network for home and offices</li>
+							<li><span>Repair/Maintain your computer</span><br />Repairing and Maintaining Your computer software & Hardware Components</li>
+
+						</ul>
+					</div>
+					<div class="skill-exp-edu_content" id="experience">
+						<ul>
+							<li><span>2022 – till date</span><br />IT Consultant @Youth Development and Empowerment Initiatives (YEDI)</li>
+							<li><span>2020 – 2021</span><br />IT Support officer @Jakin NGO</li>
+							<li><span>2018 – 2019</span><br />IT Support Officer @Swet Group Nigeria Limited</li>
+							<li><span>2015 – 2017</span><br />Head, IT Administrator @First Cornerstone Finance & Investment Ltd</li>
+							<li><span>2014 – 2015</span><br />IT Administrator @Inspire soft Limited</li>
+
+						</ul>
+					</div>
+					<div class="skill-exp-edu_content" id="education">
+						<p style="color: whitesmoke; margin-top: 1rem; text-transform: capitalize; font-weight: 600;">
+							<em>Qualifications</em></p>
+						<ul>
+						<ul>
+							<li><span>2016 – 2021</span><br />Bachelor’s Degree - Social Work @University of Lagos</li>
+							<li><span>2006 – 2012</span><br />West Africa Examination Council @Baptist High Senior Secondary School</li>
+						</ul>
+						<p style="color: whitesmoke; margin-top: 1rem; text-transform: capitalize; font-weight: 600;">
+							<em>IT Certifications and Achievement</em></p>
+						<ul>
+							<li><span>2022–Till date</span><br />Software Engineering/Web Development @Software Engineering Programme ALX/ Holberton School</li>
+							<li><span>2020 – 2020</span><br />Fundamental of Digital Marketing Certification @Google Digital Marketing</li>
+							<li><span>2020 – 2020</span><br />CompTIA N+ (N10-007) Certificate of Completion @LinkedIn Learning CompTIA N+</li>
+							<li><span>2015 – 2018 (Expired)</span><br />CISCO certified Routing & Switching (CCNA) @Cisco Networking Academy</li>
+							<li><span>2012 – 2013</span><br />Ordinary Diploma, (Computer Hardware Maintenance & Networking) @Nigeria Opportunity Industrialization Centre (NOIC)</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Start- Service Secion-->
+	<div id="service-container_enclosed">
+		<div class="service_container">
+			<h1 class="subtitle services">My Service</h1>
+			<div class="myservice_lists">
+				<div>
+					<i class="fas fa-code"></i>
+					<h2>Web Developement</h2>
+					<p>
+						Crafting stunning websites with seamless user experiences.
+						Expert in web development and design- turning ideas into 
+						impactful online realities.
+					</p>
+					<a href="#">Learn more</a>
+				</div>
+				<div>
+					<i class="fab fa-app-store"></i>
+					<h2>App Developement</h2>
+					<p>
+						Crafting seamless, user-centric mobile apps. From concept to design,
+						we bring your ideas to life. Elevate your digital presence with our
+						expert app development and design services.
+					</p>
+					<a href="#">Learn more</a>
+				</div>
+				<div>
+					<i class="fas fa-network-wired"></i>
+					<h2>Wired/Wireless Network Design</h2>
+					<p>
+						Expert network design for seamless connectivity.
+						Tailored solutions for wired and wireless networks,
+						ensuring optimal performance and reliability.
+					</p>
+					<a href="#">Learn more</a>
+				</div>
+				<div>
+					<i class="fa-solid fas fa-wrench"></i>
+					<h2>Computer Repair/ Maintenance</h2>
+					<p>
+						Efficient computer repair and maintenance services to optimize performance
+						and resolve issues promptly. Trust our expertise for a great troubleshooting,
+						hardware upgrades, and system optimization.
+
+					</p>
+					<a href="#">Learn more</a>
+				</div>
+		</div>
+	</div>
+	<!--End- Service Secion-->
+
+	<!--Start- Portfolio Section-->
+	<div id="porfolio-container_enclosed">
+		<div class="portfolio_container">
+			<h1 class="subtitle portfolio">My Work</h1>
+			<div class="work_list">
+				<div class="work">
+					<img src="work1.jpg" alt="Work image">
+					<div class="layer">
+						<h3>Wired Network</h3>
+						<p>With Our Wired Network Implementation, You will Enjoy:
+							Fast Data Transfer Rates, Ideal For Bandwidth-Intensive Applications,
+							Less Or Little Signal Disruptions Or Environmental Factors
+						</p>
+						<a href="#"><i class="fas fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="work2.jpg" alt="Work image">
+					<div class="layer">
+						<h3>Wired Network</h3>
+						<p>With Our Wired Network Implementation, You will Enjoy:
+							Fast Data Transfer Rates, Ideal For Bandwidth-Intensive Applications,
+							Less Or Little Signal Disruptions Or Environmental Factors
+						</p>
+						<a href="#"><i class="fas fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="work1.jpg" alt="Work image">
+					<div class="layer">
+						<h3>Wired Network</h3>
+						<p>With Our Wired Network Implementation, You will Enjoy:
+							Fast Data Transfer Rates, Ideal For Bandwidth-Intensive Applications,
+							Less Or Little Signal Disruptions Or Environmental Factors
+						</p>
+						<a href="#"><i class="fas fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn">See more</a>
+		</div>
+	</div>
+	<!--End- Portfolio Section-->
+
+	<!--Start- Contact Section-->
+	<div id="my_contact">
+		<div class="contact_container">
+			<div class="contact_row">
+				<div class="contact_left">
+					<h1 class="subtitle contact">Contact Me</h1>
+					<p><i class="fas fa-paper-plane"></i>optimist.techfinger@gmail.com</p>
+					<p><i class="fas fa-phone-square-alt"></i>+2348024217259</p>
+					<div class="social_icons">
+						<a href=""><i class="fab fab fa-facebook"></i></a>
+						<a href=""><i class="fab fab fa-instagram"></i></a>
+						<a href=""><i class="fab fab fa-tiktok"></i></a>
+						<a href=""><i class="fab fab fa-linkedin"></i></a>
+						<a href=""><i class="fab fab fa-twitter"></i></a>
+					</div>
+					<a href="HABEEB ALABI CV.pdf" download class="btn btn2">Download CV</a>
+				</div>
+				<div class="contact_right">
+					<form name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="Enter your name" required>
+						<input type="email" name="Email" placeholder="Enter your Email" required>
+						<textarea name="Message" rows="6" placeholder="Type your message!!!"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+					<span id="form_display-message"></span>
+				</div>
+			</div>
+		</div>
+		<div class="copyright_reserved">
+			<small>The content on this website is protected by copyright(c) 2023 by Optimist Techfinger. All rights reserved</small>
+		</div>
+	</div>
+	<!--End- Contact Section-->
+
+    <script type="text/JavaScript" src="portfolio.js"></script>
+	<script>
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbyxdXYAxAfjkIv5KUAt1Dt4TBpqt8Ih5XRDMdZ4XH6E0M39HT3GbAKx30DTcEW_Eghm3w/exec'
+		const form = document.forms['submit-to-google-sheet']
+		const formDisplayMessage = document.getElementById('form_display-message')
+	  
+		form.addEventListener('submit', e => {
+		  e.preventDefault()
+		  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+			.then(response => {
+				formDisplayMessage.textContent = "Message sent successfully";
+				setTimeout(function(){
+					formDisplayMessage.textContent= "";
+				},3000);
+				form.reset()
+			})
+			.catch(error => console.error('Error!', error.message))
+		})
+	  </script>
+</body>
+</html>
